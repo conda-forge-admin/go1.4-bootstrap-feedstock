@@ -59,7 +59,7 @@ outputs:
 
 about:
   home: http://golang.org
-  license: BSD-Style
+  license: BSD-3-Clause
   license_family: BSD
   license_file: {{ name }}/LICENSE
   summary: 'The golang bootstrap compiler (use go for the full golang)'
