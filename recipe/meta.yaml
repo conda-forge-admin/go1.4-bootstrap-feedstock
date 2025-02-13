@@ -46,7 +46,9 @@ outputs:
       build:
         - {{ compiler('c') }}        # [unix]
         - {{ compiler('m2w64_c') }}  # [win]
-        - perl  # [unix]
+        - {{ stdlib('c') }}          # [unix]
+        - {{ stdlib('m2w64_c') }}    # [win]
+        - perl                       # [unix]
     test:
       commands:
         - ${GOROOT_BOOTSTRAP}/bin/go help        # [unix]
