@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/go1.4-bootstrap
 
 Home: http://golang.org
 
-Package license: BSD-Style
+Package license: BSD-3-Clause
 
 Summary: The golang bootstrap compiler (use go for the full golang)
 
